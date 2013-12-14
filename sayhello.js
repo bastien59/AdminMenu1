@@ -15,6 +15,6 @@ API.on(API.CHAT_COMMAND, callback);
 function sayhello() {
         API.on(API.USER_JOIN, callback);
         function callback(user) {
-                API.sendChat("Salut " + "@" + user.username + " :)")
+                API.sendChat("Bonjour " + "@" + user.username + " :+1:")
 }
 }
